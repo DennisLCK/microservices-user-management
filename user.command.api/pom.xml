@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.dennis-lck</groupId>
 	<artifactId>user.command.api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>user.command.api</name>
 	<description>User Command API </description>
 	<properties>
@@ -30,6 +30,11 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.axonframework</groupId>
+			<artifactId>axon-spring-boot-starter</artifactId>
+			<version>4.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
