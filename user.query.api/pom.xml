@@ -52,7 +52,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.dennislck</groupId>
+			<groupId>com.dennis-lck</groupId>
 			<artifactId>user.core</artifactId>
 			<version>1.0.0</version>
 		</dependency>
