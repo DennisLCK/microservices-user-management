@@ -7,6 +7,11 @@
     <groupId>com.dennis-lck</groupId>
     <artifactId>microservices-user-management</artifactId>
     <version>1.0</version>
+    <packaging>pom</packaging>
 
-    
+    <modules>
+        <module>user.command.api</module>
+        <module>user.core</module>
+        <module>user.query.api</module>
+    </modules>
 </project>
