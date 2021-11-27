@@ -28,7 +28,7 @@ public class RegisterUserController {
 		command.setId(UUID.randomUUID().toString());
 
 		try {
-			commandGateway.sendAndWait(command);
+			commandGateway.send(command);
 			String successMessage = "User successfully registered!";
 
 			return new ResponseEntity<>(new RegisterUserResponse(successMessage), HttpStatus.CREATED);
